@@ -1,0 +1,34 @@
+#spring:
+#  application:
+#    name: lo-myblog
+#  resources:
+#    static-locations: classpath:/
+#  freemarker:
+#    template-loader-path: classpath:/view/
+#    suffix: .html
+#    content-type: text/html
+#    charset: UTF-8
+#  thymeleaf:
+#    prefix: classpath:/view/
+#    suffix: .html
+#    cache: false
+#  datasource:
+#    url: jdbc:mysql://101.132.186.128:3306/concurrency_study?useUnicode=true&characterEncoding=utf-8&autoReconnect=true
+#    username: root
+#    password: goodluck-long
+#    driver-class-name: com.mysql.jdbc.Driver
+server:
+  port: 9090
+#  servlet:
+#    context-path: /blog
+
+#mybatis:
+#  type-aliases-package: xyz.welog.entity
+#  mapperLocations: classpath:mapper/*.xml
+
+#分页插件
+#pagehelper:
+#  helperDialect: mysql
+#  reasonable: true
+#  supportMethodsArguments: true
+#  params: count | countSql
